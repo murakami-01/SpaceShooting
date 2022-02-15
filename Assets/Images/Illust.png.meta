@@ -1,0 +1,4380 @@
+fileFormatVersion: 2
+guid: 74cf98e4fe3e7e0449b227663542a471
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7465422358386429044
+    second: Illust_0
+  - first:
+      213: -4859406901740843264
+    second: Illust_1
+  - first:
+      213: 6702136784146151557
+    second: Illust_2
+  - first:
+      213: -3524192460091248869
+    second: Illust_3
+  - first:
+      213: 2524116681441148739
+    second: Illust_4
+  - first:
+      213: -6563031114337545743
+    second: Illust_5
+  - first:
+      213: -1367065216456318473
+    second: Illust_6
+  - first:
+      213: 2808791077490346909
+    second: Illust_7
+  - first:
+      213: 876550837265761259
+    second: Illust_8
+  - first:
+      213: 1666567712219974525
+    second: Illust_9
+  - first:
+      213: -23612714599307808
+    second: Illust_10
+  - first:
+      213: 8562566202774279100
+    second: Illust_11
+  - first:
+      213: -2165869287759608804
+    second: Illust_12
+  - first:
+      213: 1659973237983573016
+    second: Illust_13
+  - first:
+      213: 6796228474650135354
+    second: Illust_14
+  - first:
+      213: -1430513831513008973
+    second: Illust_15
+  - first:
+      213: 2789246507231990355
+    second: Illust_16
+  - first:
+      213: 371751257640766352
+    second: Illust_17
+  - first:
+      213: -6879348278197624801
+    second: Illust_18
+  - first:
+      213: -8135674628958803193
+    second: Illust_19
+  - first:
+      213: 6572880746388651026
+    second: Illust_20
+  - first:
+      213: 1631163123309492621
+    second: Illust_21
+  - first:
+      213: -1464126503005711317
+    second: Illust_22
+  - first:
+      213: 1779676240758580440
+    second: Illust_23
+  - first:
+      213: 2737897876929139495
+    second: Illust_24
+  - first:
+      213: -4635090463107468097
+    second: Illust_25
+  - first:
+      213: -1952688326808786815
+    second: Illust_26
+  - first:
+      213: -6582044206872247542
+    second: Illust_27
+  - first:
+      213: 5228311308986865906
+    second: Illust_28
+  - first:
+      213: 4380817887571903731
+    second: Illust_29
+  - first:
+      213: 231268485418934285
+    second: Illust_30
+  - first:
+      213: 5239124380186789987
+    second: Illust_31
+  - first:
+      213: 6863933436999960355
+    second: Illust_32
+  - first:
+      213: 4881144307065475647
+    second: Illust_33
+  - first:
+      213: -7184191188708033846
+    second: Illust_34
+  - first:
+      213: 6845666265111121075
+    second: Illust_35
+  - first:
+      213: 1581567972525452843
+    second: Illust_36
+  - first:
+      213: -2510724165875726908
+    second: Illust_37
+  - first:
+      213: 7490850087727581699
+    second: Illust_38
+  - first:
+      213: 488178586067863767
+    second: Illust_39
+  - first:
+      213: -4831341235992572625
+    second: Illust_40
+  - first:
+      213: 3438649817961197839
+    second: Illust_41
+  - first:
+      213: 6258296003755817774
+    second: Illust_42
+  - first:
+      213: 1441968907911846941
+    second: Illust_43
+  - first:
+      213: -7096024409789898914
+    second: Illust_44
+  - first:
+      213: -4750190171257834546
+    second: Illust_45
+  - first:
+      213: -1940472809550208423
+    second: Illust_46
+  - first:
+      213: -2464832341884316566
+    second: Illust_47
+  - first:
+      213: -7013056947054370181
+    second: Illust_48
+  - first:
+      213: -480100025271959091
+    second: Illust_49
+  - first:
+      213: 7986066600962997098
+    second: Illust_50
+  - first:
+      213: 6933765386733024992
+    second: Illust_51
+  - first:
+      213: 5959114466866368503
+    second: Illust_52
+  - first:
+      213: 5140324149715185556
+    second: Illust_53
+  - first:
+      213: 6399614914177918779
+    second: Illust_54
+  - first:
+      213: 4565911014753900976
+    second: Illust_55
+  - first:
+      213: 6438381937101121685
+    second: Illust_56
+  - first:
+      213: -6168200515845582204
+    second: Illust_57
+  - first:
+      213: 6665528081779633070
+    second: Illust_58
+  - first:
+      213: -7248736432853723230
+    second: Illust_59
+  - first:
+      213: -6217485806439054779
+    second: Illust_60
+  - first:
+      213: -334126515099816548
+    second: Illust_61
+  - first:
+      213: 5743212624535666683
+    second: Illust_62
+  - first:
+      213: 5058299464068579167
+    second: Illust_63
+  - first:
+      213: -3382697177737681218
+    second: Illust_64
+  - first:
+      213: 1261033647051570053
+    second: Illust_65
+  - first:
+      213: -1916228589147894436
+    second: Illust_66
+  - first:
+      213: 6785185101003767926
+    second: Illust_67
+  - first:
+      213: -7823036984244245952
+    second: Illust_68
+  - first:
+      213: -5072263486245967799
+    second: Illust_69
+  - first:
+      213: -4022970020966379162
+    second: Illust_70
+  - first:
+      213: -8139418650993153333
+    second: Illust_71
+  - first:
+      213: -2624543376869373778
+    second: Illust_72
+  - first:
+      213: 4348780436101388788
+    second: Illust_73
+  - first:
+      213: -6352516289242007756
+    second: Illust_74
+  - first:
+      213: 2987167730943641828
+    second: Illust_75
+  - first:
+      213: 4090297280332843861
+    second: Illust_76
+  - first:
+      213: -4243612865088142733
+    second: Illust_77
+  - first:
+      213: -4139341519957971183
+    second: Illust_78
+  - first:
+      213: -409504084365226301
+    second: Illust_79
+  - first:
+      213: 8883952244166606918
+    second: Illust_80
+  - first:
+      213: 3723980395338484210
+    second: Illust_81
+  - first:
+      213: -1663985267343065477
+    second: Illust_82
+  - first:
+      213: -6736732553646816150
+    second: Illust_83
+  - first:
+      213: -8207657092422058331
+    second: Illust_84
+  - first:
+      213: -2044655357040170794
+    second: Illust_85
+  - first:
+      213: -1432155382790392162
+    second: Illust_86
+  - first:
+      213: 8138297080986595952
+    second: Illust_87
+  - first:
+      213: -3352873583319713455
+    second: Illust_88
+  - first:
+      213: -6613617888359697887
+    second: Illust_89
+  - first:
+      213: -4887133142828116209
+    second: Illust_90
+  - first:
+      213: -978347697023844214
+    second: Illust_91
+  - first:
+      213: -5424800020081616369
+    second: Illust_92
+  - first:
+      213: 6593531042952840905
+    second: Illust_93
+  - first:
+      213: -4703507669306538959
+    second: Illust_94
+  - first:
+      213: 8383215993213176046
+    second: Illust_95
+  - first:
+      213: 5758746897400116778
+    second: Illust_96
+  - first:
+      213: 6775928194371563236
+    second: Illust_97
+  - first:
+      213: -4464531860877828659
+    second: Illust_98
+  - first:
+      213: -4452246721014618583
+    second: Illust_99
+  - first:
+      213: -6119275857011638887
+    second: Illust_100
+  - first:
+      213: 5856723850036262245
+    second: Illust_101
+  - first:
+      213: -3645709224133910475
+    second: Illust_102
+  - first:
+      213: -2456099890739655399
+    second: Illust_103
+  - first:
+      213: -2178177560587693634
+    second: Illust_104
+  - first:
+      213: -2789187156252942775
+    second: Illust_105
+  - first:
+      213: -3694668650423843760
+    second: Illust_106
+  - first:
+      213: -2257296319997493863
+    second: Illust_107
+  - first:
+      213: -7925832420241117987
+    second: Illust_108
+  - first:
+      213: 1723656871590869842
+    second: Illust_109
+  - first:
+      213: 7624380515710258060
+    second: Illust_110
+  - first:
+      213: 8668723328385987540
+    second: Illust_111
+  - first:
+      213: 3410686761744074232
+    second: Illust_112
+  - first:
+      213: -7230724496450591397
+    second: Illust_113
+  - first:
+      213: -5821199405832054092
+    second: Illust_114
+  - first:
+      213: 250288242438244150
+    second: Illust_115
+  - first:
+      213: 8360687443584274701
+    second: Illust_116
+  - first:
+      213: 2839694723037652883
+    second: Illust_117
+  - first:
+      213: -5294094535233970793
+    second: Illust_118
+  - first:
+      213: -5471071391187423931
+    second: Illust_119
+  - first:
+      213: 4816566536701596179
+    second: Illust_120
+  - first:
+      213: -8937556197637886066
+    second: Illust_121
+  - first:
+      213: -6144505760706543603
+    second: Illust_122
+  - first:
+      213: 7471992635748103830
+    second: Illust_123
+  - first:
+      213: 6327625041857764146
+    second: Illust_124
+  - first:
+      213: 8730589457363395562
+    second: Illust_125
+  - first:
+      213: -6553475109901306120
+    second: Illust_126
+  - first:
+      213: -2004863413870350176
+    second: Illust_127
+  - first:
+      213: 6289013877015078244
+    second: Illust_128
+  - first:
+      213: -2333410009891183114
+    second: Illust_129
+  - first:
+      213: 4793229143120365994
+    second: Illust_130
+  - first:
+      213: -3602808626571956716
+    second: Illust_131
+  - first:
+      213: -2986940648531472656
+    second: Illust_132
+  - first:
+      213: 2458499531536144751
+    second: Illust_133
+  - first:
+      213: -592769316797994613
+    second: Illust_134
+  - first:
+      213: 1427734637937740867
+    second: Illust_135
+  - first:
+      213: 1097205836416436336
+    second: Illust_136
+  - first:
+      213: -2300702505650613821
+    second: Illust_137
+  - first:
+      213: -7084891350742975013
+    second: Illust_138
+  - first:
+      213: -4493677920480687014
+    second: Illust_139
+  - first:
+      213: -7994910075126150729
+    second: Illust_140
+  - first:
+      213: 3171337171423220126
+    second: Illust_141
+  - first:
+      213: -7222291417520425785
+    second: Illust_142
+  - first:
+      213: -6439846338517713230
+    second: Illust_143
+  - first:
+      213: 6697409564725374842
+    second: Illust_144
+  - first:
+      213: -2170148470728065319
+    second: Illust_145
+  - first:
+      213: -9202040106216162733
+    second: Illust_146
+  - first:
+      213: -6771987683265804071
+    second: Illust_147
+  - first:
+      213: 6257869643701111137
+    second: Illust_148
+  - first:
+      213: 6360649021911796746
+    second: Illust_149
+  - first:
+      213: 8492140775310555019
+    second: Illust_150
+  - first:
+      213: -3708388626907379699
+    second: Illust_151
+  - first:
+      213: 4975894307390653662
+    second: Illust_152
+  - first:
+      213: 6445984672647612362
+    second: Illust_153
+  - first:
+      213: -7609304208396123489
+    second: Illust_154
+  - first:
+      213: -7407552687407167518
+    second: Illust_155
+  - first:
+      213: 7882472391068773282
+    second: Illust_156
+  - first:
+      213: 5408557355030716911
+    second: Illust_157
+  - first:
+      213: 2796501279207193315
+    second: Illust_158
+  - first:
+      213: 5209563159718509711
+    second: Illust_159
+  - first:
+      213: -2927910260834339154
+    second: Illust_160
+  - first:
+      213: -5774212366880755449
+    second: Illust_161
+  - first:
+      213: 3135708635159975246
+    second: Illust_162
+  - first:
+      213: 3825767327097874649
+    second: Illust_163
+  - first:
+      213: 7982928747121029341
+    second: Illust_164
+  - first:
+      213: 1507682418282938874
+    second: Illust_165
+  - first:
+      213: -1434441517300497524
+    second: Illust_166
+  - first:
+      213: 2970178030749488608
+    second: Illust_167
+  - first:
+      213: -5757074273818662341
+    second: Illust_168
+  - first:
+      213: -4907993840440424402
+    second: Illust_169
+  - first:
+      213: -1365533497131721892
+    second: Illust_170
+  - first:
+      213: 7213486739356948096
+    second: Illust_171
+  - first:
+      213: -4706016861455169050
+    second: Illust_172
+  - first:
+      213: 508639999244606508
+    second: Illust_173
+  - first:
+      213: -2631879695971981563
+    second: Illust_174
+  - first:
+      213: 133134434107573670
+    second: Illust_175
+  - first:
+      213: 1031832922875247037
+    second: Illust_176
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Illust_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3246
+        width: 610
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833e162bed756890800000000000000
+      internalID: -7465422358386429044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_1
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3241
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fc7aa4b2bef8cb0800000000000000
+      internalID: -4859406901740843264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_2
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2710
+        width: 1314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5883c1f45e5c20d50800000000000000
+      internalID: 6702136784146151557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_3
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 1979
+        width: 606
+        height: 1315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa62821ad871fc0800000000000000
+      internalID: -3524192460091248869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3173
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fffe89fb6770320800000000000000
+      internalID: 2524116681441148739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_5
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3186
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1131459fd6be4a0800000000000000
+      internalID: -6563031114337545743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_6
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 3117
+        width: 135
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1245cbd65370de0800000000000000
+      internalID: -1367065216456318473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_7
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 3100
+        width: 135
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b49167a94daf620800000000000000
+      internalID: 2808791077490346909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_8
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 2931
+        width: 362
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be30cc2a7522a2c00800000000000000
+      internalID: 876550837265761259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3098
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc1012186d02710800000000000000
+      internalID: 1666567712219974525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_10
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3130
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e520267c5c1caff0800000000000000
+      internalID: -23612714599307808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_11
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 2742
+        width: 435
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb35022589854d670800000000000000
+      internalID: 8562566202774279100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_12
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3074
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c140929ab5941f1e0800000000000000
+      internalID: -2165869287759608804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3023
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8147aa27dd8690710800000000000000
+      internalID: 1659973237983573016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_14
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3019
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8aeb2acd015e50800000000000000
+      internalID: 6796228474650135354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2950
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4526adf3bc52ce0800000000000000
+      internalID: -1430513831513008973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_16
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2963
+        width: 804
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352df869be465b620800000000000000
+      internalID: 2789246507231990355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2875
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b8b789cc9b82500800000000000000
+      internalID: 371751257640766352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2909
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10e5d77035a780a0800000000000000
+      internalID: -6879348278197624801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_19
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2853
+        width: 804
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba0c49707481f80800000000000000
+      internalID: -8135674628958803193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_20
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 2598
+        width: 313
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cff77d630973b50800000000000000
+      internalID: 6572880746388651026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2802
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d893497e73e03a610800000000000000
+      internalID: 1631163123309492621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2798
+        width: 804
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241c1ae3b06eabe0800000000000000
+      internalID: -1464126503005711317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2727
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d42e91ac1ea2b810800000000000000
+      internalID: 1779676240758580440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_24
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2733
+        width: 857
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72358a1fc97fef520800000000000000
+      internalID: 2737897876929139495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2654
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4bda418c9dcafb0800000000000000
+      internalID: -4635090463107468097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_26
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2231
+        width: 111
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188a2830058a6e4e0800000000000000
+      internalID: -1952688326808786815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_27
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2226
+        width: 112
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a034671caa1e7a4a0800000000000000
+      internalID: -6582044206872247542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_28
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 2457
+        width: 126
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d15b4f61be8840800000000000000
+      internalID: 5228311308986865906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_29
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 2457
+        width: 127
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4866e78aacbcc30800000000000000
+      internalID: 4380817887571903731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_30
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 2555
+        width: 155
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0063215671a53300800000000000000
+      internalID: 231268485418934285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2579
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684f1f9ddb15b840800000000000000
+      internalID: 5239124380186789987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_32
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2517
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3270f422817914f50800000000000000
+      internalID: 6863933436999960355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_33
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 2545
+        width: 120
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32de08c2ee4db340800000000000000
+      internalID: 4881144307065475647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_34
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 2369
+        width: 187
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf0966d20ac4c90800000000000000
+      internalID: -7184191188708033846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_35
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2602
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcc2deb231b00f50800000000000000
+      internalID: 6845666265111121075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_36
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 2602
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ea38601bbd2f510800000000000000
+      internalID: 1581567972525452843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_37
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 2223
+        width: 112
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c50dfb6cad182dd0800000000000000
+      internalID: -2510724165875726908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_38
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 2459
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac4b07778d4f760800000000000000
+      internalID: 7490850087727581699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_39
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2454
+        width: 85
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8078966db56c600800000000000000
+      internalID: 488178586067863767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_40
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 2358
+        width: 616
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d47ff4eb0a3fcb0800000000000000
+      internalID: -4831341235992572625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2506
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f98a6ac988bf20800000000000000
+      internalID: 3438649817961197839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_42
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2514
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bbc1bbe0fe9d650800000000000000
+      internalID: 6258296003755817774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_43
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2497
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c5e35f417e20410800000000000000
+      internalID: 1441968907911846941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_44
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2525
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fd8f8456bd58d90800000000000000
+      internalID: -7096024409789898914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_45
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 2525
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3ff92f43fe31eb0800000000000000
+      internalID: -4750190171257834546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2410
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a472c24e0215e0800000000000000
+      internalID: -1940472809550208423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_47
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2454
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6457175b082bcdd0800000000000000
+      internalID: -2464832341884316566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_48
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2431
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722d390ddd9cae90800000000000000
+      internalID: -7013056947054370181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_49
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2392
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1420912975659f0800000000000000
+      internalID: -480100025271959091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_50
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2448
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bb207f24534de60800000000000000
+      internalID: 7986066600962997098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_51
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 2448
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6fe10f1eea93060800000000000000
+      internalID: 6933765386733024992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2336
+        width: 610
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff067de80703b250800000000000000
+      internalID: 5959114466866368503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_53
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2356
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa22e5499165740800000000000000
+      internalID: 5140324149715185556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_54
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2356
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37edda9bdfffc850800000000000000
+      internalID: 6399614914177918779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_55
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2326
+        width: 79
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9137e60ef5d5f30800000000000000
+      internalID: 4565911014753900976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_56
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2309
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5982431824ab95950800000000000000
+      internalID: 6438381937101121685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_57
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 2000
+        width: 272
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48294a5bf46266aa0800000000000000
+      internalID: -6168200515845582204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_58
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1734
+        width: 94
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabadd29976b08c50800000000000000
+      internalID: 6665528081779633070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_59
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 2267
+        width: 188
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a75259ae90576b90800000000000000
+      internalID: -7248736432853723230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_60
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1940
+        width: 63
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542ca27c99d07b9a0800000000000000
+      internalID: -6217485806439054779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2262
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9daf6d64b1fc5bf0800000000000000
+      internalID: -334126515099816548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_62
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2253
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffbcf2047df3bf40800000000000000
+      internalID: 5743212624535666683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_63
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 2264
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f3b530090b23640800000000000000
+      internalID: 5058299464068579167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_64
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2221
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6aa32d6de3e01d0800000000000000
+      internalID: -3382697177737681218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_65
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1689
+        width: 94
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bf256bb67108110800000000000000
+      internalID: 1261033647051570053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_66
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2153
+        width: 187
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d446330403865e0800000000000000
+      internalID: -1916228589147894436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_67
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1981
+        width: 32
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6704a9066e1d92e50800000000000000
+      internalID: 6785185101003767926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_68
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 1933
+        width: 328
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ae061af4dfe6390800000000000000
+      internalID: -7823036984244245952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_69
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2229
+        width: 219
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948ef17bb33bb99b0800000000000000
+      internalID: -5072263486245967799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2189
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661d04e941a8b28c0800000000000000
+      internalID: -4022970020966379162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_71
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 2008
+        width: 187
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca2d558cd9fa0f80800000000000000
+      internalID: -8139418650993153333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_72
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1961
+        width: 244
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8c81444bfb39bd0800000000000000
+      internalID: -2624543376869373778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2113
+        width: 610
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9ddfb04c8f95c30800000000000000
+      internalID: 4348780436101388788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_74
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2056
+        width: 208
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437f8dd871457d7a0800000000000000
+      internalID: -6352516289242007756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_75
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2069
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c76f793d847920800000000000000
+      internalID: 2987167730943641828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_76
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2081
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b4cf384b7a3c830800000000000000
+      internalID: 4090297280332843861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_77
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2090
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372c4243598ab15c0800000000000000
+      internalID: -4243612865088142733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_78
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 2092
+        width: 25
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f21ea91da1e86c0800000000000000
+      internalID: -4139341519957971183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_79
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2093
+        width: 26
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec6557436215af0800000000000000
+      internalID: -409504084365226301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_80
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2090
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640c5133f732a4b70800000000000000
+      internalID: 8883952244166606918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_81
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2081
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94ba6607c3ea330800000000000000
+      internalID: 3723980395338484210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_82
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 2069
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e788c273658e8e0800000000000000
+      internalID: -1663985267343065477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_83
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1959
+        width: 188
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6442196f615282a0800000000000000
+      internalID: -6736732553646816150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_84
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 2098
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeb7f74c5b881e80800000000000000
+      internalID: -8207657092422058331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2041
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8658b29ccef93e0800000000000000
+      internalID: -2044655357040170794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_86
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1884
+        width: 297
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e967d996446ff1ce0800000000000000
+      internalID: -1432155382790392162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_87
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1765
+        width: 43
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072fdcc931a01f070800000000000000
+      internalID: 8138297080986595952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_88
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 1766
+        width: 42
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159ff618d333871d0800000000000000
+      internalID: -3352873583319713455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_89
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2002
+        width: 219
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122b62c2295b734a0800000000000000
+      internalID: -6613617888359697887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1966
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0711bbbc4a6d2cb0800000000000000
+      internalID: -4887133142828116209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_91
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1912
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80821cf3f53c62f0800000000000000
+      internalID: -978347697023844214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_92
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1901
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ad081af1d37b4b0800000000000000
+      internalID: -5424800020081616369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_93
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1764
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c607beac8de08b50800000000000000
+      internalID: 6593531042952840905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_94
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 1440
+        width: 514
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13488ace1b8c9beb0800000000000000
+      internalID: -4703507669306538959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1891
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee848d6978a275470800000000000000
+      internalID: 8383215993213176046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_96
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1646
+        width: 187
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26bae2cacd2bef40800000000000000
+      internalID: 5758746897400116778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_97
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1708
+        width: 234
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee2219dacee80e50800000000000000
+      internalID: 6775928194371563236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_98
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 1781
+        width: 286
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd96f73debca02c0800000000000000
+      internalID: -4464531860877828659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1818
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926a68d32317632c0800000000000000
+      internalID: -4452246721014618583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_100
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1762
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d72348707f31ba0800000000000000
+      internalID: -6119275857011638887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_101
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1430
+        width: 60
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56538f4bf43474150800000000000000
+      internalID: 5856723850036262245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_102
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1430
+        width: 60
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5302225c6c6d76dc0800000000000000
+      internalID: -3645709224133910475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_103
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1712
+        width: 84
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d469f892e2aedd0800000000000000
+      internalID: -2456099890739655399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_104
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1712
+        width: 84
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb191739c0f85c1e0800000000000000
+      internalID: -2178177560587693634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_105
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1432
+        width: 63
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e16732f01da49d0800000000000000
+      internalID: -2789187156252942775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_106
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 1803
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05407b80076e9bcc0800000000000000
+      internalID: -3694668650423843760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_107
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 1803
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99db0c5e4f87ca0e0800000000000000
+      internalID: -2257296319997493863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_108
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 1803
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce04a1869c10290800000000000000
+      internalID: -7925832420241117987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_109
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 1803
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb5d9dac8abe710800000000000000
+      internalID: 1723656871590869842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_110
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 1803
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bc15feead3fc960800000000000000
+      internalID: 7624380515710258060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_111
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1803
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b69430fd7d4870800000000000000
+      internalID: 8668723328385987540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_112
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1803
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f502e90a81355f20800000000000000
+      internalID: 3410686761744074232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1743
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55e858616e47ab90800000000000000
+      internalID: -7230724496450591397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_114
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 1785
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba5aa08bf1f63fa0800000000000000
+      internalID: -5821199405832054092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_115
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 1785
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6370df594d3397300800000000000000
+      internalID: 250288242438244150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_116
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 1785
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01d8e0eee0270470800000000000000
+      internalID: 8360687443584274701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_117
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 1785
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397e5352e4f986720800000000000000
+      internalID: 2839694723037652883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_118
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 1785
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dda0cc1199786b0800000000000000
+      internalID: -5294094535233970793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_119
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1785
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da8738e89d214b0800000000000000
+      internalID: -5471071391187423931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_120
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1785
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d121feb1e7d240800000000000000
+      internalID: 4816566536701596179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1670
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fe3bfcdfb67f380800000000000000
+      internalID: -8937556197637886066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_122
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1471
+        width: 108
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00cebcc0945abaa0800000000000000
+      internalID: -6144505760706543603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_123
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1269
+        width: 43
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696b912c6b9d1b760800000000000000
+      internalID: 7471992635748103830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_124
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1269
+        width: 43
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5ccb437d30d750800000000000000
+      internalID: 6327625041857764146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_125
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1502
+        width: 84
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae36ae5dad8492970800000000000000
+      internalID: 8730589457363395562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_126
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1502
+        width: 84
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6f7fdfb116d05a0800000000000000
+      internalID: -6553475109901306120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_127
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 1594
+        width: 666
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0b419e85b4d24e0800000000000000
+      internalID: -2004863413870350176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1575
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656cfeecc0174750800000000000000
+      internalID: 6289013877015078244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_129
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1395
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5681d75ff0e9fd0800000000000000
+      internalID: -2333410009891183114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_130
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 925
+        width: 242
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa94db29288f48240800000000000000
+      internalID: 4793229143120365994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_131
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 925
+        width: 242
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e277384a0400ec0800000000000000
+      internalID: -3602808626571956716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_132
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 925
+        width: 242
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe4b1f3e414c86d0800000000000000
+      internalID: -2986940648531472656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f691da95c485e1220800000000000000
+      internalID: 2458499531536144751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_134
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 1504
+        width: 686
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89218e627f06c7f0800000000000000
+      internalID: -592769316797994613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1427
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cccc7b61550d310800000000000000
+      internalID: 1427734637937740867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_136
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1292
+        width: 84
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078461d15ee0a3f00800000000000000
+      internalID: 1097205836416436336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_137
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1292
+        width: 84
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c118d0c2434210e0800000000000000
+      internalID: -2300702505650613821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_138
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 1290
+        width: 386
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd3ab69ad86dad90800000000000000
+      internalID: -7084891350742975013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c8bb66dbf33a1c0800000000000000
+      internalID: -4493677920480687014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_140
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 930
+        width: 304
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b90ae045af5c0190800000000000000
+      internalID: -7994910075126150729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_141
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 930
+        width: 305
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e915cadda5ad20c20800000000000000
+      internalID: 3171337171423220126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_142
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 926
+        width: 272
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b75a983445cb90800000000000000
+      internalID: -7222291417520425785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_143
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 925
+        width: 63
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3d88ffd111a6a0800000000000000
+      internalID: -6439846338517713230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_144
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 1181
+        width: 227
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f62c4c38af1fc50800000000000000
+      internalID: 6697409564725374842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_145
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 1181
+        width: 226
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de756cb67512e1e0800000000000000
+      internalID: -2170148470728065319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 610
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a76142749cb4080800000000000000
+      internalID: -9202040106216162733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_147
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 926
+        width: 227
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d80f93e4111502a0800000000000000
+      internalID: -6771987683265804071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_148
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 923
+        width: 387
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169418b094b68d650800000000000000
+      internalID: 6257869643701111137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c0df3d590954850800000000000000
+      internalID: 6360649021911796746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_150
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 926
+        width: 227
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87fef6ba052ad570800000000000000
+      internalID: 8492140775310555019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1129
+        width: 610
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0846141138298cc0800000000000000
+      internalID: -3708388626907379699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_152
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 1140
+        width: 344
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed488e7528ded0540800000000000000
+      internalID: 4975894307390653662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_153
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 906
+        width: 226
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac706c058ecb47950800000000000000
+      internalID: 6445984672647612362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 610
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920aa66322566690800000000000000
+      internalID: -7609304208396123489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_155
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 1071
+        width: 344
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e70b14e316133990800000000000000
+      internalID: -7407552687407167518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_156
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 906
+        width: 227
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab6a7560ea246d60800000000000000
+      internalID: 7882472391068773282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981
+        width: 610
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1aee5324e0f0b40800000000000000
+      internalID: 5408557355030716911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 610
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaf111d81b2fc620800000000000000
+      internalID: 2796501279207193315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 610
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cbbf1a7161c4840800000000000000
+      internalID: 5209563159718509711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_160
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 0
+        width: 1101
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea67fb86129fd57d0800000000000000
+      internalID: -2927910260834339154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701b7660270eddfa0800000000000000
+      internalID: -5774212366880755449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_162
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 0
+        width: 740
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45d5d5d366448b20800000000000000
+      internalID: 3135708635159975246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8e6fc3d1bd71530800000000000000
+      internalID: 3825767327097874649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_164
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 111
+        width: 358
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0376f666f09ce60800000000000000
+      internalID: 7982928747121029341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_165
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 102
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af14bdfdb2d5ce410800000000000000
+      internalID: 1507682418282938874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_166
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 0
+        width: 589
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c834b3e3a07d71ce0800000000000000
+      internalID: -1434441517300497524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e51e7aae21383920800000000000000
+      internalID: 2970178030749488608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aaf734373ca10b0800000000000000
+      internalID: -5757074273818662341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 241
+        width: 272
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e284eb41b9d43ebb0800000000000000
+      internalID: -4907993840440424402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 610
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b119ee486ac0de0800000000000000
+      internalID: -1365533497131721892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0869c5388f37b1460800000000000000
+      internalID: 7213486739356948096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 610
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e947f9199ed0beb0800000000000000
+      internalID: -4706016861455169050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c9789626d0f0700800000000000000
+      internalID: 508639999244606508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507e60e5c5fa97bd0800000000000000
+      internalID: -2631879695971981563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 610
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5ca5cff0df8d100800000000000000
+      internalID: 133134434107573670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illust_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 610
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93883939ec15e00800000000000000
+      internalID: 1031832922875247037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
