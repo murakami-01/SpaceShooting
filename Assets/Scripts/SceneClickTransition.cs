@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// タップによるシーン遷移を制御するクラス
+/// </summary>
 public class SceneClickTransition : MonoBehaviour
 {
     private GameObject player;
@@ -22,8 +25,11 @@ public class SceneClickTransition : MonoBehaviour
         }
     }
 
-    
-
+    /**
+     * <summary>
+     * プレイヤー移動の演出の処理
+     * </summary>
+     * */
     public IEnumerator PlayerTransition(string name)
     {
         if (player != null)

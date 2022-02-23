@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletDataList:
   - bulletName: PlayerBullet
-    attack: 8
+    attack: 10
     speed: 9
   - bulletName: PlayerNwayBullet
-    attack: 5
+    attack: 7
     speed: 7
   - bulletName: PlayerHomingBullet
     attack: 5
     speed: 6
   - bulletName: PlayerLaser
-    attack: 30
+    attack: 1
     speed: 80
   - bulletName: EnemyBullet
     attack: 5

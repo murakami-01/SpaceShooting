@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// hp管理の抽象クラス
+/// </summary>
 public abstract class HpManager : MonoBehaviour
 {
     public float maxHp = 50;
+    public AudioClip clip;
     public float hp { get; set; }
 
     public Transform hpParentTransform;
@@ -19,31 +23,18 @@ public abstract class HpManager : MonoBehaviour
 
     public abstract void OnTriggerEnter(Collider other);
 
-    public virtual void Damage(float damage)
-    {
-        if (hp <= damage)
-        {
-            hpParentTransform.localScale = new Vector3(0, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-            Die();
-        }
-        else
-        {
-            hp -= damage;
-            hpParentTransform.localScale = new Vector3(hp / maxHp, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-            if (hp / maxHp <= 0.2f && !isRed)
-            {
-                var hpgauge = hpParentTransform.GetChild(0);
-                hpgauge.GetComponent<SpriteRenderer>().color = Color.red;
-                isRed = true;
-            }
-            else if (isRed && hp / maxHp > 0.2f)
-            {
-                var hpgauge = hpParentTransform.GetChild(0);
-                hpgauge.GetComponent<SpriteRenderer>().color = Color.green;
-            }
+    /**
+     * <summary>
+     * 受けたダメージに対する処理
+     * </summary>
+     * <param name="damage"> ダメージの値 </param>
+     * */
+    public abstract void Damage(float damage);
 
-        }
-    }
-
+    /**
+     * <summary>
+     * 死亡処理
+     * </summary>
+     * */
     public abstract void Die();
 }

@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc7ae312ff7d44795ab818b65e83bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wave: {fileID: 2013091316430750175}
 --- !u!1001 &769654384245399481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55,6 +54,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 609641496425455126}
     m_Modifications:
+    - target: {fileID: 1322947906760050958, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
+      propertyPath: maxHp
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7409633705911049234, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
       propertyPath: m_Name
       value: Mob (5)
@@ -117,6 +120,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 609641496425455126}
     m_Modifications:
+    - target: {fileID: 1322947906760050958, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
+      propertyPath: maxHp
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7409633705911049234, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
       propertyPath: m_Name
       value: Mob (4)
@@ -179,6 +186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 609641496425455126}
     m_Modifications:
+    - target: {fileID: 1322947906760050958, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
+      propertyPath: maxHp
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7409633705911049234, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
       propertyPath: m_Name
       value: Mob
@@ -241,6 +252,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 609641496425455126}
     m_Modifications:
+    - target: {fileID: 1322947906760050958, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
+      propertyPath: maxHp
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7409633705911049234, guid: 987d0e81c7deb684aaeca1d5fdfcf1c3, type: 3}
       propertyPath: m_Name
       value: Mob (2)

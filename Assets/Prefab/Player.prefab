@@ -136,6 +136,8 @@ MonoBehaviour:
   itemTime: 4
   nwayCount: 4
   nwayDegree: 90
+  itemManager: {fileID: 5942015153718187574}
+  coolTime: 0.13
 --- !u!114 &5942015153718187532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +166,8 @@ MonoBehaviour:
   hpParentTransform: {fileID: 0}
   sceneManager: {fileID: 0}
   effect: {fileID: 100002, guid: e9391f622091e1449bdef4ef15af4948, type: 3}
+  damageEffect: {fileID: 2397824426086158068, guid: cf609e6be3103d84d9b638d33c9dda9c, type: 3}
+  itemManager: {fileID: 5942015153718187574}
 --- !u!114 &5942015153718187574
 MonoBehaviour:
   m_ObjectHideFlags: 0

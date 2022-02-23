@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 弾丸に関するデータの保存用クラス
+/// </summary>
 [CreateAssetMenu(menuName ="MyScriptable/BulletDataList")]
 public class BulletDataList : ScriptableObject
 {
-    /// <summary>
-    /// 弾丸に関するデータの保存
-    /// </summary>
-
     public List<BulletData> bulletDataList = new List<BulletData>();
 
 }
 
+/// <summary>
+/// 弾丸に関するデータの中身のクラス
+/// </summary>
 [System.Serializable]
 public class BulletData
 {
