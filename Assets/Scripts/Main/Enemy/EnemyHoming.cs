@@ -19,7 +19,7 @@ public class EnemyHoming : BulletManager
     }
 
 
-    public override void FixedUpdate()
+    void FixedUpdate()
     {
         if (player != null)
         {
@@ -36,10 +36,6 @@ public class EnemyHoming : BulletManager
                 }
             }
 
-            //”ÍˆÍŠO‚È‚ç”j‰ó
-            bool isOutOfRange = this.transform.position.y >= 5.5f * ScreenAdjust.heightRatio || this.transform.position.y <= -5.5f * ScreenAdjust.heightRatio
-           || this.transform.position.x > 2.9f * ScreenAdjust.widthRatio || this.transform.position.x < -2.9f * ScreenAdjust.widthRatio;
-            if (isOutOfRange) Destroy(this.gameObject);
         }
         else
         {

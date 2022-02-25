@@ -18,7 +18,7 @@ public class PlayerLaser : BulletManager
         player = transform.root.gameObject;
         layerMask = 1 << 7;
     }
-    public override void FixedUpdate()
+    void FixedUpdate()
     {
         if(Physics.Raycast(parent.transform.position,new Vector3(0,1,0), out RaycastHit hit,10f,layerMask))
         {

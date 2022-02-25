@@ -19,7 +19,7 @@ public class PlayerHomingBullet : BulletManager
         limitSpeed = bulletDataList.bulletDataList[bulletid].Speed;
     }
 
-    public override void FixedUpdate()
+    void FixedUpdate()
     {
         /*‘ÎÛ”j‰óŽž‚ÉÄŒŸõ‚·‚é‹@”\‚ÍƒQ[ƒ€ƒoƒ‰ƒ“ƒX‚ÌŠÏ“_‚©‚ç’âŽ~
         if (target == null)
@@ -54,10 +54,6 @@ public class PlayerHomingBullet : BulletManager
             Destroy(this.gameObject);
         }
 
-        //‰æ–ÊŠO‚Éo‚½‚ç”j‰ó
-        bool isOutOfRange = this.transform.position.y >= 5.5f * ScreenAdjust.heightRatio || this.transform.position.y <= -5.5f * ScreenAdjust.heightRatio
-            || this.transform.position.x > 2.9f * ScreenAdjust.widthRatio || this.transform.position.x < -2.9f * ScreenAdjust.widthRatio;
-        if (isOutOfRange) Destroy(this.gameObject);
         
     }
 

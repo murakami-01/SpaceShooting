@@ -17,15 +17,6 @@ public class PlayerBullet : BulletManager
         limitSpeed = bulletDataList.bulletDataList[bulletid].Speed;
         rb.velocity = new Vector3(0, 1, 0) * limitSpeed;
     }
-    public override void  FixedUpdate()
-    {
-        if (this.transform.position.y > 5.5f * ScreenAdjust.heightRatio)
-        {
-            //‰æ–ÊŠO‚Éo‚½‚ç”j‰ó
-            Destroy(this.gameObject);
-        }
-
-    }
 
     public override void OnTriggerEnter(Collider other)
     {

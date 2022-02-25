@@ -16,9 +16,8 @@ public class MobMove : MonoBehaviour
         rb.velocity = new Vector3(0, -speed, 0);
     }
 
-    void FixedUpdate()
+    private void OnBecameInvisible()
     {
-        //âÊñ äOÇ…èoÇΩÇÁîjâÛ
-        if (this.gameObject.transform.position.y <= -5.5f * ScreenAdjust.heightRatio) Destroy(this.gameObject);
+        Destroy(this.gameObject);
     }
 }

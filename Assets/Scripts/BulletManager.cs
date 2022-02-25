@@ -23,16 +23,19 @@ public abstract class BulletManager : MonoBehaviour
      * */
     public abstract void Start();
 
+
+    public abstract void OnTriggerEnter(Collider other);
+
     /**
      * <summary>
-     * 移動計算のたびに行う判定用
+     * 画面外に出たら破壊
      * </summary>
      * */
-    public abstract void FixedUpdate();
+    public void OnBecameInvisible()
+    {
+        Destroy(this.gameObject);
+    }
 
-
-    public abstract void OnTriggerEnter(Collider other);  
-    
     /**
      * <summary>
      * 弾丸自体への当たり判定処理

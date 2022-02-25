@@ -18,14 +18,6 @@ public class PlayerNwayBullet : BulletManager
         limitSpped = bulletDataList.bulletDataList[bulletid].Speed;
         rb.velocity = new Vector3(Mathf.Cos(theta), Mathf.Sin(theta), 0) * limitSpped;
     }
-    public override void FixedUpdate()
-    {
-        //‰æ–ÊŠO‚Éo‚½‚ç”j‰ó
-        bool isOutOfRange = this.transform.position.y > 5.5f * ScreenAdjust.heightRatio || this.transform.position.x > 2.9f * ScreenAdjust.widthRatio
-            || this.transform.position.x < -2.9f * ScreenAdjust.widthRatio;
-        if (isOutOfRange) Destroy(this.gameObject);
-
-    }
 
     public override void OnTriggerEnter(Collider other)
     {

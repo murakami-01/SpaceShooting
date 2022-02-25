@@ -33,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
         Attack.Subscribe(n=>DefaultAttack());
         Attack.Where(n => itemManager.itemList.ContainsKey("nway")&&itemManager.itemList["nway"] > 0).Subscribe(n => NwayAttack());
         Attack.Where(n => itemManager.itemList.ContainsKey("homing") && itemManager.itemList["homing"] > 0 && n % 2 == 0).Subscribe(n => HomingAttack());
-        Attack.Where(n => itemManager.itemList.ContainsKey("laser") && itemManager.itemList["laser"] > 0).Subscribe(n => LaserAttack());
+        Attack.Subscribe(n => LaserAttack());
     }
 
     public virtual void Update()

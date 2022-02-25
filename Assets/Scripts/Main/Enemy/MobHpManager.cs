@@ -9,6 +9,7 @@ public class MobHpManager : HpManager
 {
     [System.NonSerialized] public GameObject sceneManager;
     private ItemCreator itemCreator;
+    private bool isActive = false;
     public float screenRatio { get; set; }
     public GameObject effect;
     [SerializeField] private EnemyAttack mobAttack;
@@ -22,7 +23,7 @@ public class MobHpManager : HpManager
 
     public override void OnTriggerEnter(Collider other)
     {
-        if (this.transform.position.y <= 5.5f * screenRatio)
+        if (isActive)
         {
             if (other.CompareTag("PlayerBullet")|| other.CompareTag("PlayerLaser"))
             {
@@ -49,7 +50,7 @@ public class MobHpManager : HpManager
 
     public void OnTriggerStay(Collider other)
     {
-        if (this.transform.position.y <= 5f * screenRatio)
+        if (isActive)
         {
             if (other.CompareTag("PlayerLaser"))
             {
@@ -111,5 +112,15 @@ public class MobHpManager : HpManager
         sceneManager.GetComponent<ResultJudgment>().num++;
         Instantiate(effect, this.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
+    }
+
+    /**
+     * <summary>
+     * 画面内に入ってからダメージ処理を開始
+     * </summary>
+     * */
+    private void OnBecameVisible()
+    {
+        isActive = true;
     }
 }

@@ -20,7 +20,7 @@ public class ResultJudgment : MonoBehaviour
     private AudioSource[] audioSources;
 
     public int num { get; set; } = 0;//“|‚µ‚½“G‹@‚Ì”
-    public int maxNum { get; set; } = 41;//“G‹@‚ÌoŒ»‚µ‚½”
+    public int maxNum { get; set; } = 39;//“G‹@‚ÌoŒ»‚µ‚½”
 
     void Start()
     {
@@ -61,7 +61,6 @@ public class ResultJudgment : MonoBehaviour
             value = $"“¢”°—¦ {num * 100 / maxNum}%  Good ";
         }
         detail.GetComponent<Text>().text = value;
-        Debug.Log($"{num},{maxNum}");
     }
 
 
@@ -80,6 +79,5 @@ public class ResultJudgment : MonoBehaviour
         GameObject detail = canvas.transform.Find("Detail").gameObject;
         string value= $"“¢”°—¦ {num * 100 / maxNum}%";
         detail.GetComponent<Text>().text = value;
-        Debug.Log($"{num},{maxNum}");
     }
 }
