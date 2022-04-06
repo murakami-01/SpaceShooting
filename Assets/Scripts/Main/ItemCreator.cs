@@ -23,26 +23,25 @@ public class ItemCreator : MonoBehaviour
     public void RandomCreate(Vector3 pos)
     {
         int result = r.Next(1, 100);
-        if (result <= noCreated * 4)
+        if (result <= noCreated * 50)
         {
             //アイテムがドロップすること自体は確定したので、何がドロップするかを判定
             int sum = itemNumList.Sum();
             if (sum > 0)
             {
                 int itemNum = r.Next(1, sum);
-                int i = 0;
-                while (itemNum > 0)
+                Debug.Log($"List:{itemNumList[0]},{itemNumList[1]},{itemNumList[2]}, num {itemNum}, max {sum}");
+                for (int i = 0; i < itemNumList.Count; i++)
                 {
                     itemNum -= itemNumList[i];
                     if (itemNum <= 0)
                     {
-                        Instantiate(itemObjectList[i], pos, Quaternion.identity);
+                        GameObject instance = (GameObject) Instantiate(itemObjectList[i], pos, Quaternion.identity);
+                        instance.GetComponent<ItemManager>().itemCreator = this;
                         itemNumList[i]--;
                         noCreated = 1;
                         break;
                     }
-                    if (i >= itemObjectList.Count) break;
-                    i++;
                 }
                 
             }
@@ -50,7 +49,7 @@ public class ItemCreator : MonoBehaviour
         }
         else
         {
-            //アイテムがドロップしなかった場合次回移行ドロップする確率が増加
+            //アイテムがドロップしなかった場合次回以降ドロップする確率が増加
             noCreated++;
         }
     }
@@ -71,7 +70,7 @@ public class ItemCreator : MonoBehaviour
             case "homing":
                 itemNumList[1]++;
                 break;
-            case "Laser":
+            case "laser":
                 itemNumList[2]++;
                 break;
         }

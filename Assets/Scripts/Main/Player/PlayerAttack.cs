@@ -17,8 +17,9 @@ public class PlayerAttack : MonoBehaviour
     public PlayerItemManager itemManager;
     public float coolTime = 0.13f;
 
-    [System.NonSerialized]public List<GameObject> laserList = new List<GameObject>(2);
-    [System.NonSerialized]public int laserNum = 0;
+    protected List<GameObject> laserList = new List<GameObject>(2);
+    protected int laserNum = 0;
+    protected int drawnLaser = 0;
     public bool isActive { get; set; } = true;//外部から攻撃を制御するための変数
     [System.NonSerialized]public bool isActivated = false;//攻撃中かどうか
     public Subject<int> Attack = new Subject<int>();
@@ -31,44 +32,37 @@ public class PlayerAttack : MonoBehaviour
     public void Start()
     {
         Attack.Subscribe(n=>DefaultAttack());
-        Attack.Where(n => itemManager.itemList.ContainsKey("nway")&&itemManager.itemList["nway"] > 0).Subscribe(n => NwayAttack());
-        Attack.Where(n => itemManager.itemList.ContainsKey("homing") && itemManager.itemList["homing"] > 0 && n % 2 == 0).Subscribe(n => HomingAttack());
-        Attack.Subscribe(n => LaserAttack());
     }
 
     public virtual void Update()
     {
         if (isActive)
         {
-            if (Input.GetMouseButton(0) && !isActivated)
+            if (Input.GetMouseButtonDown(0) && !isActivated)
             {
                 //画面が押されたら攻撃開始
                 StartCoroutine(AttackCounter());
                 isActivated = true;
+                for(int i =1; i <= laserNum; i++)
+                {
+                    ActivateLaser(i);
+                }
             }
             if (Input.GetMouseButtonUp(0))
             {
                 //画面が押されなくなったら攻撃中止
                 StopAllCoroutines();
                 isActivated = false;
-                if (laserNum>0)
-                {
-                    laserList.ForEach(ins => Destroy(ins));
-                    laserList.RemoveAll(i => i != null);
-                    laserNum = 0;
-                }
+                laserNum = drawnLaser;
+                DeactivateLaser(drawnLaser);
             }
         }
         else
         {
             StopAllCoroutines();
             isActivated = false;
-            if (laserNum>0)
-            {
-                laserList.ForEach(ins => Destroy(ins));
-                laserList.RemoveAll(i => i != null);
-                laserNum = 0;
-            }
+            laserNum = drawnLaser;
+            DeactivateLaser(drawnLaser);
         }
         
     }
@@ -104,17 +98,13 @@ public class PlayerAttack : MonoBehaviour
      * nway攻撃
      * </summary>
      * */
-    public void NwayAttack()
+    public void NwayAttack(int num)
     {
-        //何発増やすかを判定
-        if (itemManager.itemList["nway"] == 1) nwayCount = 2;
-        else nwayCount = 4;
-
         //それぞれの回転角を求めてインスタンス生成
         float nwayRange = Mathf.PI * (nwayDegree / 180);
-        for(int i = 0; i < nwayCount; i++)
+        for(int i = 0; i < num*2; i++)
         {
-            float theta = (nwayRange / (nwayCount - 1)) * i + 0.5f * (Mathf.PI - nwayRange);
+            float theta = (nwayRange / (num*2-1)) * i + 0.5f * (Mathf.PI - nwayRange);
             GameObject nwayBulletObject = (GameObject)Instantiate(nwayBullet, this.transform.position, Quaternion.Euler(0, 0, theta / Mathf.PI * 180 - 90));
             PlayerNwayBullet nwayCs = nwayBulletObject.GetComponent < PlayerNwayBullet > ();
             nwayCs.theta = theta;
@@ -127,7 +117,7 @@ public class PlayerAttack : MonoBehaviour
      * ホーミング攻撃
      * </summary>
      * */
-    public void HomingAttack()
+    public void HomingAttack(int num)
     {
         //敵の検索
         float distance = float.MaxValue;
@@ -147,7 +137,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (target != null)
         {
-            for (int i = 0; i < itemManager.itemList["homing"]; i++)
+            for (int i = 0; i < num; i++)
             {
                 //インスタンス生成し、インスタンスに敵の情報を渡す
                 Vector3 position = this.transform.position + new Vector3(0.5f * (1 - 2 * i), 0.5f, 0);
@@ -159,45 +149,49 @@ public class PlayerAttack : MonoBehaviour
         
     }
 
+
     /**
      * <summary>
-     * レーザー攻撃
+     * レーザーを指定された本数消去
      * </summary>
+     * <param name="num">何本消去するか </param>
      * */
-    public void LaserAttack()
+    public void DeactivateLaser(int num)
     {
-        if (laserNum<itemManager.itemList["laser"])
+        num = Mathf.Min(num, drawnLaser);
+        for(int i = 0; i < num; i++)
         {
-            //レーザーの本数が足りていない場合にレーザーを生成
-            for(int i=laserNum;i<itemManager.itemList["laser"]; i++)
-            {
-                ActivateLaser(i);
-            }
-            laserNum=itemManager.itemList["laser"];
+            Destroy(laserList[drawnLaser - 1]);
+            laserList.RemoveAt(drawnLaser - 1);
+            drawnLaser--;
         }
-
-        if (itemManager.itemList["laser"] < laserNum)
-        {
-            //レーザーの本数が多い場合に破壊
-            Destroy(laserList[laserNum - 1]);
-            laserList.RemoveAt(laserNum - 1);
-            laserNum--;
-        }
-
+        
     }
 
     /**
      * <summary>
      * レーザーの生成
      * </summary>
-     * <param name="num"> レーザーの本数 </param>
+     * <param name="num"> レーザーが何本目か </param>
      * */
     public void ActivateLaser(int num)
     {
-        Vector3 position = this.gameObject.transform.position + new Vector3(0.25f * (1 - 2 * num), 0.5f, 0);
-        GameObject instance = (GameObject)Instantiate(Laser, position, Quaternion.identity);
-        instance.transform.parent = this.gameObject.transform;
-        laserList.Add(instance);
+
+        if (Input.GetMouseButton(0))
+        {
+            drawnLaser++;
+            Vector3 position = this.gameObject.transform.position + new Vector3(0.25f * (1 - 2 * (num - 1)), 0.5f, 0);
+            GameObject instance = (GameObject)Instantiate(Laser, position, Quaternion.identity);
+            instance.transform.parent = this.gameObject.transform;
+            PlayerLaser playerLaser = instance.GetComponent<PlayerLaser>();
+            playerLaser.playerTrans = this.gameObject.transform;
+            laserList.Add(instance);
+        }
+        else
+        {
+            laserNum++;
+        }
+        
     }
 
     /**

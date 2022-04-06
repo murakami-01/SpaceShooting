@@ -29,67 +29,59 @@ public class BossHpManager : HpManager
 
     public override void OnTriggerEnter(Collider other)
     {
-        if (isActive)
+        if (other.CompareTag("Player"))
         {
-            if (other.CompareTag("PlayerBullet") || other.CompareTag("PlayerLaser"))
-            {
-                //プレイヤーの攻撃
-                var bulletCs = other.GetComponent<BulletManager>();
-                Damage(bulletCs.Attack);
-            }
-            else if (other.CompareTag("Player"))
-            {
-                //プレイヤーと衝突
-                Damage(maxHp);
-            }
+            //プレイヤーと衝突
+            Damage(maxHp);
         }
 
     }
 
     public void OnTriggerStay(Collider other)
     {
-        if (isActive)
+        if (other.CompareTag("PlayerLaser"))
         {
-            if (other.tag == "PlayerLaser")
-            {
-                //レーザーの継続ダメージ
-                var bulletCs = other.GetComponent<BulletManager>();
-                Damage(bulletCs.Attack * 0.1f);
-            }
+            //レーザーの継続ダメージ
+            var bulletCs = other.GetComponent<BulletManager>();
+            Damage(bulletCs.Attack * 0.1f);
         }
 
     }
 
     public override void Damage(float damage)
     {
-        if (hp <= damage)
+        if (isActive)
         {
-            hpParentTransform.localScale = new Vector3(0, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-            if (isFirstGauge)
+            if (hp <= damage)
             {
-                //1ゲージ目だったならば２ゲージ目への移行処理
-                isFirstGauge = false;
-                hp = maxHp - 120;
-                hpParentTransform = secondHpGaugeTransform;
-                bossAttack.ChangeAttack();
-                for (int i = 0; i < 2; i++)
+                hpParentTransform.localScale = new Vector3(0, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
+                if (isFirstGauge)
                 {
-                    Instantiate(effect1, this.transform.position + new Vector3(-0.2f + 0.4f * i, -0.7f, 0), Quaternion.identity);
-                    Camera.main.GetComponent<AudioSource>().PlayOneShot(clip);
+                    //1ゲージ目だったならば２ゲージ目への移行処理
+                    isFirstGauge = false;
+                    hp = maxHp - 120;
+                    hpParentTransform = secondHpGaugeTransform;
+                    bossAttack.ChangeAttack();
+                    for (int i = 0; i < 2; i++)
+                    {
+                        Instantiate(effect1, this.transform.position + new Vector3(-0.2f + 0.4f * i, -0.7f, 0), Quaternion.identity);
+                        Camera.main.GetComponent<AudioSource>().PlayOneShot(clip);
+                    }
+                }
+                else
+                {
+                    //2ゲージ目だったならば志望処理
+                    Die();
                 }
             }
             else
             {
-                //2ゲージ目だったならば志望処理
-                Die();
+                hp -= damage;
+                hpParentTransform.localScale = new Vector3(hp / maxHp, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
+
             }
         }
-        else
-        {
-            hp -= damage;
-            hpParentTransform.localScale = new Vector3(hp / maxHp, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-
-        }
+        
     }
 
     public override void Die()

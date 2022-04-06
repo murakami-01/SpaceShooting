@@ -23,22 +23,11 @@ public class MobHpManager : HpManager
 
     public override void OnTriggerEnter(Collider other)
     {
-        if (isActive)
+        if (other.CompareTag("Player"))
         {
-            if (other.CompareTag("PlayerBullet")|| other.CompareTag("PlayerLaser"))
-            {
-                //プレイヤーの攻撃によるダメージ
-                var bulletCs = other.GetComponent<BulletManager>();
-                Damage(bulletCs.Attack);
-            }
-            else if (other.CompareTag("Player"))
-            {
-                //プレイヤーと衝突
-                Damage(maxHp);
-            }
-        }
-
-        if(other.CompareTag("BossBomb"))
+            //プレイヤーと衝突
+            Damage(maxHp);
+        }else if (other.CompareTag("BossBomb"))
         {
             //boss死亡時に当たり判定を拾って死ぬ
             Instantiate(effect, this.transform.position, Quaternion.identity);
@@ -48,41 +37,44 @@ public class MobHpManager : HpManager
         
     }
 
+
     public void OnTriggerStay(Collider other)
     {
-        if (isActive)
+        if (other.CompareTag("PlayerLaser"))
         {
-            if (other.CompareTag("PlayerLaser"))
-            {
-                //レーザーによる継続ダメージ
-                var bulletCs = other.GetComponent<BulletManager>();
-                Damage(bulletCs.Attack);
-            }
+            //レーザーによる継続ダメージ
+            var bulletCs = other.GetComponent<BulletManager>();
+            Damage(bulletCs.Attack);
         }
-        
+
     }
+
 
     public override void Damage(float damage)
     {
-        if (hp <= damage)
+        if (isActive)
         {
-            hpParentTransform.localScale = new Vector3(0, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-            Die();
-        }
-        else
-        {
-            hp -= damage;
-            hpParentTransform.localScale = new Vector3(hp / maxHp, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
-
-            if (hp / maxHp <= 0.2f && !isRed)
+            if (hp <= damage)
             {
-                //hp2割以下でゲージを赤色に変化させる
-                var hpgauge = hpParentTransform.GetChild(0);
-                hpgauge.GetComponent<SpriteRenderer>().color = Color.red;
-                isRed = true;
+                hpParentTransform.localScale = new Vector3(0, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
+                Die();
             }
+            else
+            {
+                hp -= damage;
+                hpParentTransform.localScale = new Vector3(hp / maxHp, hpParentTransform.localScale.y, hpParentTransform.localScale.z);
 
+                if (hp / maxHp <= 0.2f && !isRed)
+                {
+                    //hp2割以下でゲージを赤色に変化させる
+                    var hpgauge = hpParentTransform.GetChild(0);
+                    hpgauge.GetComponent<SpriteRenderer>().color = Color.red;
+                    isRed = true;
+                }
+
+            }
         }
+        
     }
 
     public override void Die()

@@ -51,6 +51,14 @@ public class PlayerHpManager : HpManager
                 Damage(2);
             }
         }
+
+        if (other.CompareTag("Item"))
+        {
+            var itemCs = other.GetComponent<ItemManager>();
+            var itemName = itemCs.itemName;
+            itemManager.GetItem(itemName);
+            GetItem(itemName);
+        }
     }
 
     public override void Damage(float damage)
@@ -71,7 +79,7 @@ public class PlayerHpManager : HpManager
         else
         {
             //‹­‰»‚ð2‚ÂŽ¸‚¤
-            if (iconStack.Count == 1)
+            if (iconStack.Count <= 1)
             {
                 Die();
             }
@@ -134,6 +142,8 @@ public class PlayerHpManager : HpManager
         itemManager.itemList[itemName]--;
         itemCreator.AddItem(itemName);
         Destroy(instance);
+
+        if (itemName == "laser") itemManager.DeleteLaser();
     }
 
     /**

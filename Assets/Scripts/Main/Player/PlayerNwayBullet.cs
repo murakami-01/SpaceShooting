@@ -23,6 +23,10 @@ public class PlayerNwayBullet : BulletManager
     {
         if (other.CompareTag("Enemy"))
         {
+            if (other.gameObject.TryGetComponent<HpManager>(out HpManager hpManager))
+            {
+                hpManager.Damage(this.Attack);
+            }
             Destroy(this.gameObject);
         }
         else if (other.CompareTag("EnemyBullet"))

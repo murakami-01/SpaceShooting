@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx;
 
 /// <summary>
 /// プレイヤーのアイテムを管理するクラス
@@ -8,20 +9,39 @@ using UnityEngine;
 public class PlayerItemManager : MonoBehaviour
 {
     private PlayerHpManager hpManager;
-    public Dictionary<string, int> itemList { get; set; } = new Dictionary<string, int> { ["nway"] = 1, ["homing"] = 0, ["laser"] = 0 };
+    private PlayerAttack playerAttack;
+    public Dictionary<string, int> itemList { get; set; } = new Dictionary<string, int> { ["nway"] = 1 };
 
     void Start()
     {
         hpManager = this.gameObject.GetComponent<PlayerHpManager>();
+        playerAttack = this.gameObject.GetComponent<PlayerAttack>();
+        playerAttack.Attack.Subscribe(n =>playerAttack.NwayAttack(itemList["nway"]));
     }
 
-    private void OnTriggerEnter(Collider other)
+    /**
+     * <summary>
+     * アイテムを取得した際に攻撃を強化する
+     * </summary>
+     * <param name="itemName"> アイテムの名前</param>
+     * */
+    public void GetItem(string itemName)
     {
-        if (other.tag == "Item")
+        if (itemName == "laser")
         {
-            var itemCs = other.GetComponent<ItemManager>();
-            var itemName = itemCs.itemName;
-
+            if (itemList.ContainsKey(itemName))
+            {
+                itemList[itemName]++;
+                playerAttack.ActivateLaser(itemList[itemName]);
+            }
+            else
+            {
+                itemList.Add(itemName, 1);
+                playerAttack.ActivateLaser(1);
+            }
+        }
+        else
+        {
             if (itemList.ContainsKey(itemName))
             {
                 itemList[itemName]++;
@@ -29,9 +49,21 @@ public class PlayerItemManager : MonoBehaviour
             else
             {
                 itemList.Add(itemName, 1);
+                if (itemName == "homing")
+                {
+                    playerAttack.Attack.Subscribe(n => playerAttack.HomingAttack(itemList["homing"]));
+                }
             }
-
-            hpManager.GetItem(itemName);
         }
+    }
+
+    /**
+     * <summary>
+     * レーザーを１本消す
+     * </summary>
+     * */
+    public void DeleteLaser()
+    {
+        playerAttack.DeactivateLaser(1);
     }
 }

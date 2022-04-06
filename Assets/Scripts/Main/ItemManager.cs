@@ -9,6 +9,7 @@ public class ItemManager : MonoBehaviour
 {
     [SerializeField] private float speed = 0.6f;
     public string itemName;
+    public ItemCreator itemCreator { get; set; }
     private Rigidbody rb;
 
 
@@ -21,7 +22,11 @@ public class ItemManager : MonoBehaviour
     void FixedUpdate()
     {
         //‰æ–ÊŠO‚Éo‚½‚ç”j‰ó
-        if (this.transform.position.y <= -5.5f * ScreenAdjust.heightRatio) Destroy(this.gameObject);
+        if (this.transform.position.y <= -5.5f * ScreenAdjust.heightRatio)
+        {
+            itemCreator.AddItem(itemName);
+            Destroy(this.gameObject);
+        }
     }
 
     public virtual void OnTriggerEnter(Collider other)
@@ -32,4 +37,5 @@ public class ItemManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
 }
